@@ -1,0 +1,58 @@
+/* Copyright (c) 2025 Paulina Zabielska
+All rights reserved. This code cannot be used, copied, modified, or distributed for commercial purposes without the author's permission. */
+
+.card {
+    border-radius: 30px !important; 
+}
+
+.form-control, #button-download {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+#button-add, #fileInputLabel {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.list-group {
+    border-radius: 10px !important;
+    font-weight:500;
+}
+
+.delete-btn {
+    margin: 0;           
+    padding: 5px 10px;   
+    border: none;         
+    background: none;     
+    cursor: pointer;      
+    color: #dc3545;        
+    font-size: 14px;       
+    border-radius: 20px;
+}
+
+.delete-btn:hover {
+    color: #fff;           
+    background-color: #dc3545; 
+}
+
+#listTitle {
+    cursor: pointer;
+    color: #007bff;
+    transition: color 0.3s ease;
+    border-radius: 10px; 
+    font-size: 20px;
+}
+
+#listTitle:hover {
+    color: #0056b3;
+}
+
+#listTitle:focus {
+    outline: none; 
+    border: none;
+}
